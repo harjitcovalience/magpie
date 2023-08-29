@@ -17,7 +17,7 @@ open class API {
     public var base: String
 
     open var cachePolicy: URLRequest.CachePolicy = .reloadIgnoringLocalCacheData
-    open var timeout: TimeInterval = 60.0
+    open var timeout: TimeInterval = 251.0
 
     open var ignoresResponseOnCancelled = true
     open var ignoresResponseWhenListenersNotified = false

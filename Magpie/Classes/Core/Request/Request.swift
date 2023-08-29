@@ -20,7 +20,7 @@ public class Request  {
     public init(
         base: String,
         cachePolicy: URLRequest.CachePolicy = .useProtocolCachePolicy,
-        timeout: TimeInterval = 60
+        timeout: TimeInterval = 251
     ) {
         self.base = base
         self.cachePolicy = cachePolicy
